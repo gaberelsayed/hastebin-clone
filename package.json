@@ -1,0 +1,35 @@
+{
+  "name": "hastebin-clone",
+  "version": "1.0.0",
+  "description": "A simple Node app built on Express, Hastebin Clone.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muradmohamed/hastebin-clone.git"
+  },
+  "keywords": [
+    "hastebin",
+    "node",
+    "express",
+    "gaber",
+    "murad"
+],
+  "author": "muradmohamed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muradmohamed/hastebin-clone/issues"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "ejs": "^3.1.6",
+    "wio.db": "^4.0.21",
+    "body-parser": "^1.19.0"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
